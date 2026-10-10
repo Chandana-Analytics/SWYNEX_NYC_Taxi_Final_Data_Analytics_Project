@@ -1,0 +1,26 @@
+-- SWYNEX Internship - Task 2
+-- NYC Taxi Exploratory Data Analysis
+-- Payment Analysis
+
+
+-- 1. Trip count and average amounts by payment type
+SELECT
+    PAYMENT_TYPE,
+    COUNT(*) AS TOTAL_TRIPS,
+    AVG(FARE_AMOUNT) AS AVG_FARE_AMOUNT,
+    AVG(TOTAL_AMOUNT) AS AVG_TOTAL_AMOUNT
+FROM NYC_TAXI_DQ.RAW.YELLOW_TAXI_CLEANED
+GROUP BY PAYMENT_TYPE
+ORDER BY TOTAL_TRIPS DESC;
+
+-- 2. Trip share by payment type
+SELECT
+    PAYMENT_TYPE,
+    COUNT(*) AS TOTAL_TRIPS,
+    ROUND(
+        COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (),
+        2
+    ) AS TRIP_SHARE_PERCENT
+FROM NYC_TAXI_DQ.RAW.YELLOW_TAXI_CLEANED
+GROUP BY PAYMENT_TYPE
+ORDER BY TOTAL_TRIPS DESC;
