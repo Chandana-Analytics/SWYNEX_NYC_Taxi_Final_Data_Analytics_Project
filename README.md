@@ -42,25 +42,14 @@ My goal was to prepare the data for analysis, understand when and where taxi tri
 
 ## 3. Dataset Information
 
-
-
 | Item                   | Details                                               |
-
 | ---------------------- | ----------------------------------------------------- |
-
 | Dataset                | January 2026 NYC Yellow Taxi Trip Records             |
-
 | Source                 | New York City Taxi and Limousine Commission (NYC TLC) |
-
 | Original records       | 3,724,889                                             |
-
 | Records after cleaning | 3,724,777                                             |
-
 | Records excluded       | 112                                                   |
-
 | Columns                | 20                                                    |
-
-
 
 The full dataset was processed and analyzed in Snowflake. The GitHub repository contains a 10,000-row cleaned sample rather than the complete dataset.
 
@@ -100,17 +89,17 @@ After cleaning the data, I used SQL to explore six areas:
 
 
 
-1\. Overall trip statistics
+1. Overall trip statistics
 
-2\. Trip timing and demand patterns
+2. Trip timing and demand patterns
 
-3\. Trip distance and duration
+3. Trip distance and duration
 
-4\. Payment-type distribution
+4. Payment-type distribution
 
-5\. Pickup and drop-off locations
+5. Pickup and drop-off locations
 
-6\. Potential anomalies in trip records
+6. Potential anomalies in trip records
 
 
 
