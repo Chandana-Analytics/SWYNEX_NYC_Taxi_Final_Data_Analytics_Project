@@ -225,33 +225,33 @@ These are possible areas for further investigation, not proven financial outcome
 
 ```text
 
-NYC\_Taxi\_Final\_Data\_Analytics\_Project/
+NYC _Taxi _Final _Data _Analytics _Project 
 
-├── 01\_Data\_Cleaning/
+├── 01 _Data _Cleaning 
 
-│   ├── 01\_SQL\_Scripts/
+│   ├── 01 _SQL _Scripts 
 
-│   ├── 02\_Documentation/
+│   ├── 02 _Documentation 
 
-│   ├── 03\_Results/
+│   ├── 03 _Results 
 
-│   └── 04\_Cleaned\_Data/
+│   └── 04 _Cleaned _Data 
 
-├── 02\_SQL\_Analysis/
+├── 02 _SQL _Analysis 
 
-│   ├── 01\_SQL\_Scripts/
+│   ├── 01 _SQL _Scripts 
 
-│   ├── 02\_Results/
+│   ├── 02 _Results 
 
-│   └── 03\_Documentation/
+│   └── 03 _Documentation 
 
-├── 03\_Excel\_Charts/
+├── 03 _Excel _Charts 
 
-├── 04\_Power\_BI\_Dashboard/
+├── 04 _Power _BI _Dashboard 
 
-├── 05\_Business\_Insights/
+├── 05 _Business _Insights 
 
-├── 06\_Docs/
+├── 06 _Docs 
 
 └── README.md
 
